@@ -1,0 +1,692 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  border: 3px solid rgb(5, 84, 14);
+  background-color: rgb(187, 207, 193);
+  width: 1050px;
+  height: 320px;
+  position: absolute;
+  z-index: 2;
+  left: 70px;
+  top: -30px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px black;
+  z-index: 2;
+}
+
+.menu img {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 500px;
+}
+
+#btn1 {
+  width: 200px;
+  height: 55px;
+  z-index: 4;
+  position: absolute;
+  left: 90px;
+  top: 200px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn1 a {
+  display: inline-block;
+  color: black;
+  padding: 1rem 2.3rem;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn2 {
+  width: 200px;
+  height: 55px;
+  z-index: 4;
+  position: absolute;
+  left: 360px;
+  top: 200px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn2 a {
+  display: inline-block;
+  color: black;
+  padding: 1rem 2.3rem;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn3 {
+  width: 200px;
+  height: 55px;
+  z-index: 4;
+  position: absolute;
+  left: 640px;
+  top: 200px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn3 a {
+  display: inline-block;
+  color: black;
+  padding: 1rem 2.3rem;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn4 {
+  width: 200px;
+  height: 55px;
+  z-index: 4;
+  position: absolute;
+  left: 910px;
+  top: 200px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#btn4 a {
+  display: inline-block;
+  color: black;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.logo img {
+  position: absolute;
+  left: 35%;
+  width: 400px;
+  top: 25px;
+}
+
+.nome {
+  position: absolute;
+  right: 80px;
+  border: 3px solid rgb(5, 84, 14);
+  width: 225px;
+  background-color: rgb(37, 172, 53);
+  z-index: 1;
+  border-radius: 20px;
+  height: 60px;
+  top: 10px;
+  z-index: 3;
+}
+
+.nome a {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  z-index: 2;
+  font-size: 1.5rem;
+  /* text-decoration: none; */
+  color: rgb(91, 46, 250);
+}
+
+.nome img {
+  position: absolute;
+  width: 35px;
+  left: 7px;
+  top: 13px;
+}
+
+.start {
+  background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+  width: 1477px;
+  height: 1332px;
+}
+
+.start-text {
+  background-color: rgb(173, 217, 189);
+  border-radius: 30px;
+  position: absolute;
+  top: 390px;
+  width: 100%;
+  font-size: 1.2rem;
+  max-width: 900px;
+  height: 845px;
+  left: 150px;
+  box-shadow: 0 0 100px black;
+  border: 2px solid black;
+  scale: 1.1;
+}
+
+.start-text p {
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  top: 20px;
+  font-size: 1.2rem;
+  max-width: 850px;
+  height: 815px;
+  left: 20px;
+  z-index: 2;
+}
+
+.start-text h2 {
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  top: -27px;
+  font-size: 1.9rem;
+  max-width: 850px;
+  height: 815px;
+  left: 35%;
+  z-index: 2;
+}
+
+.instruk {
+  padding: 0px 10px 20px 20px;
+  position: absolute;
+  top: 100px;
+  left: 1160px;
+  background-color: rgb(173, 217, 189);
+  border-radius: 30px;
+  width: 270px;
+  height: 180px;
+  border: 3px solid black;
+  font-size: 1.3rem;
+  z-index: 3;
+}
+
+.t-box-1 {
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 600px;
+  height: 370px;
+  position: absolute;
+  top: 430px;
+  left: 80px;
+  z-index: 3;
+}
+
+.t-1 {
+  width: 600px;
+  height: 370.5px;
+}
+
+.t-box-1 {
+  transition: 1s;
+}
+
+.t-box-1:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-1 {
+  position: absolute;
+  top: -20px;
+  left: 185px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.t-box-2 {
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 600px;
+  height: 370px;
+  position: absolute;
+  top: 430px;
+  left: 800px;
+  z-index: 3;
+}
+
+.t-2 {
+  width: 600px;
+  height: 370.5px;
+}
+
+.t-box-2 {
+  transition: 1s;
+}
+
+.t-box-2:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-2 {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  z-index: 4;
+}
+
+.t-box-3 {
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 600px;
+  height: 370px;
+  position: absolute;
+  top: 890px;
+  left: 80px;
+  z-index: 3;
+}
+
+.t-3 {
+  width: 600px;
+  height: 370.5px;
+}
+
+.t-box-3 {
+  transition: 1s;
+}
+
+.t-box-3:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-3 {
+  position: absolute;
+  top: -20px;
+  left: 105px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.t-box-4 {
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 600px;
+  height: 370px;
+  position: absolute;
+  top: 890px;
+  left: 800px;
+  z-index: 3;
+}
+
+.t-4 {
+  width: 600px;
+  height: 370.5px;
+}
+
+.t-box-4 {
+  transition: 1s;
+}
+
+.t-box-4:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-4 {
+  position: absolute;
+  top: -20px;
+  left: 125px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.btn-back {
+  position: absolute;
+  left: 1000px;
+  top: 20px;
+  width: 90px;
+  height: 85px;
+  z-index: 6;
+  border-radius: 20px;
+}
+
+.img-back {
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  width: 80px;
+  height: 75px;
+  z-index: 6;
+}
+
+.p-back {
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  color: black;
+  font-size: 30px;
+  z-index: 6;
+}
+
+/* .............................................. */
+
+.b-s {
+  position: absolute;
+  left: 150px;
+  top: 340px;
+  width: 1160px;
+  height: 950px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgb(173, 217, 189);
+  box-shadow: 0 0 100px black;
+}
+
+.s-1 {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 200px;
+  z-index: 3;
+}
+.s-2 {
+  position: absolute;
+  left: 20px;
+  top: 330px;
+  width: 200px;
+  z-index: 3;
+}
+.s-3 {
+  position: absolute;
+  left: 240px;
+  top: 330px;
+  width: 200px;
+  z-index: 3;
+}
+.s-4 {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+  width: 200px;
+  z-index: 3;
+}
+.s-5 {
+  position: absolute;
+  left: 20px;
+  top: 640px;
+  width: 200px;
+  z-index: 3;
+}
+.s-6 {
+  position: absolute;
+  left: 240px;
+  top: 640px;
+  width: 200px;
+  z-index: 3;
+}
+.s-7 {
+  position: absolute;
+  left: 460px;
+  top: 20px;
+  width: 200px;
+  z-index: 3;
+}
+.s-8 {
+  position: absolute;
+  left: 460px;
+  top: 330px;
+  width: 200px;
+  z-index: 3;
+}
+
+/* 
+.s-t {
+  position: relative;
+  top: -10px;
+  font-size: 40px;
+  text-align: center;
+} */
+
+/* .............................................. */
+
+.p-li {
+  position: absolute;
+  top: 300px;
+  left: 6%;
+}
+
+.p-list {
+  width: 1300px;
+}
+
+/* .............................................. */
+
+.s--1 {
+  position: absolute;
+  top: 296px;
+  width: 741px;
+}
+.s--2 {
+  position: absolute;
+  top: 296px;
+  left: 50%;
+  width: 50%;
+}
+.s--3 {
+  position: absolute;
+  top: 1286px;
+  width: 50%;
+}
+.s--4 {
+  position: absolute;
+  top: 1286px;
+  left: 50%;
+  width: 737px;
+}
+
+/* .............................................. */
+
+.vid-1 {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+.vi-p-1 {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 590px;
+  left: 80px;
+}
+
+.vid-2 {
+  position: absolute;
+  top: 300px;
+  left: 550px;
+  width: 400px;
+  height: 300px;
+}
+
+.vi-p-2 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: 900;
+  top: 587px;
+  left: 690px;
+}
+
+.vid-3 {
+  position: absolute;
+  top: 300px;
+  left: 1050px;
+  width: 400px;
+  height: 300px;
+}
+
+.vi-p-3 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: 900;
+  top: 587px;
+  left: 1200px;
+}
+
+.vid-4 {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.vi-p-4 {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 990px;
+  left: 155px;
+}
+
+.vid-5 {
+  position: absolute;
+  top: 700px;
+  left: 600px;
+  width: 300px;
+  height: 300px;
+}
+
+.vi-p-5 {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 990px;
+  left: 590px;
+}
+
+.vid-1- {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.vi-p-1- {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 640px;
+  left: 80px;
+}
+
+.vid-2- {
+  position: absolute;
+  top: 350px;
+  left: 600px;
+  width: 300px;
+  height: 300px;
+}
+
+.vi-p-2- {
+  font-size: 30px;
+  position: absolute;
+  font-weight: 900;
+  top: 637px;
+  left: 690px;
+}
+
+.vid-3- {
+  position: absolute;
+  top: 350px;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+}
+
+.vi-p-3- {
+  font-size: 30px;
+  position: absolute;
+  font-weight: 900;
+  top: 637px;
+  left: 1200px;
+}
+
+.vid-4- {
+  position: absolute;
+  top: 700px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+.vi-p-4- {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 990px;
+  left: 155px;
+}
+
+.vid-5- {
+  position: absolute;
+  top: 700px;
+  left: 550px;
+  width: 400px;
+  height: 300px;
+}
+
+.vi-p-5- {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 700;
+  top: 990px;
+  left: 590px;
+}
+
+@media (max-width: 920px) {
+  .menu {
+    width: 90%;
+    left: 20px;
+    top: 10px;
+  }
+  .menu img {
+    width: 330px;
+  }
+  .logo img {
+    position: absolute;
+    left: 10%;
+  }
+  .nome {
+    top: 135px;
+    left: 190px;
+  }
+  .nome img {
+    left: 9px;
+  }
+  #btn1 {
+    left: 35px;
+    top: 230px;
+  }
+  #btn2 {
+    left: 250px;
+    top: 230px;
+  }
+  #btn3 {
+    left: 35px;
+  }
+  #btn4 {
+    left: 250px;
+  }
+}
+
+.background {
+  background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+  scale: 1.11;
+  height: 1332px;
+  transform: rotate(90deg);
+}
